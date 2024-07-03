@@ -1,0 +1,43 @@
+.main_product_container{
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.product_image{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product_details{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.product_selectors{
+    display: flex;
+}
+
+.product_btn{
+    display: flex;
+}
+
+.product_lable{
+    font-size: 2rem;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.procut_desc{
+    font-size: 1.3rem;
+    font-weight: bolder;
+    padding-bottom: 40px;
+}

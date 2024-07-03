@@ -1,0 +1,65 @@
+.login_main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0}
+.btn_fgtCA{
+    background-color: transparent;
+    border-style: none;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    width: fit-content;
+
+}
+
+.login_container{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    padding: 50px 20px;
+    font-weight: 500;
+    box-shadow: 0 4px 4px 0 rgb(0, 0, 0, 0.2),0 4px 4px 0 rgb(0, 0, 0, 0.2);
+}
+
+.form_btn{
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-style: none;
+    background-color: rgb(222,222,222);
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.login_lable{
+    margin-bottom: 30px;
+}
+
+
+
+.form_input{
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+@media screen and (max-width : 460px){
+    .login_main{
+        padding: 5px 5px;
+    }
+
+    .login_container{
+        width: 100%;
+    }
+    
+}
+

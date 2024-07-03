@@ -1,0 +1,44 @@
+.subhead{
+    display: flex;
+    max-width: 100%;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 4px 0 rgb(0,0,0,0.1);
+}
+
+
+.subhead >div{
+    margin-right: 60px;
+    
+    cursor: pointer;
+}
+
+.subhead_catagrory{
+    background-color: white;
+    border-style: none;
+    font-weight: 500;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+
+
+
+@media screen and (max-width: 460px){
+    .subhead{
+        width: 100%;
+        justify-content: space-evenly;
+    }
+
+    .subhead >div{
+        margin-right: 1px;
+        
+        cursor: pointer;
+    }
+
+    .shoe_img{
+        display: none;
+    }
+}
+

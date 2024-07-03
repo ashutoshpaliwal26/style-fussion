@@ -1,0 +1,65 @@
+.poster {
+    display: flex;
+    max-width: 100%;
+    height: 40vh;
+    background-color: rgb(222, 222, 222);
+    padding: 0 80px;
+    justify-content: center;
+}
+
+.brand_lable{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+.shoe_img{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px 0;
+}
+
+.shop_now{
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    border: 1px solid black;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+img{
+    width: 230px;
+    height: 230px;
+}
+
+
+@media screen and (max-width : 460px){
+    .poster{
+        padding: 0 20px;
+        max-width: 100%;
+        justify-content: flex-start;
+    }
+
+    .shoe_img{
+        display: none;
+    }
+
+    .shop_now{
+        width: 60%;
+        font-size: 1rem;
+    }
+
+    .brand_lable{
+        width: 80%;
+    }
+}
