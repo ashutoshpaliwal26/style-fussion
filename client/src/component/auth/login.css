@@ -3,7 +3,25 @@
     display: flex;
     justify-content: center;
     align-items: center;
+<<<<<<< HEAD
     padding: 100px 0}
+=======
+    flex-direction: column;
+    padding: 100px 0;
+}
+
+.error_message{
+    font-size : 1rem;
+    font-weight : bold;
+    color : red;
+    width: fit-content;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    position: sticky;
+}
+
+>>>>>>> 82bd202 (Adding Server)
 .btn_fgtCA{
     background-color: transparent;
     border-style: none;
