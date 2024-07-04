@@ -2,10 +2,7 @@ import React from 'react'
 import "./login.css"
 
 const Login = () => {
-<<<<<<< HEAD
-=======
-    
->>>>>>> 82bd202 (Adding Server)
+
   return (
     <>
         <div className='login_main'>

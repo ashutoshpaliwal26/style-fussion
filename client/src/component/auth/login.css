@@ -3,9 +3,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-<<<<<<< HEAD
     padding: 100px 0}
-=======
     flex-direction: column;
     padding: 100px 0;
 }
@@ -21,7 +19,6 @@
     position: sticky;
 }
 
->>>>>>> 82bd202 (Adding Server)
 .btn_fgtCA{
     background-color: transparent;
     border-style: none;
